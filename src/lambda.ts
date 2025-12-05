@@ -6,7 +6,6 @@ import { configureNestApp } from './config/nest-app.config';
 let cachedServer;
 
 export const handler = async (event, context) => {
-
   if (event.httpMethod === 'OPTIONS') {
     return {
       statusCode: 200,
