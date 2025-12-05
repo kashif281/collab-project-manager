@@ -67,7 +67,6 @@
         }
       ]
     },
-
     {
       "name": "test",
       "created_at": false,
@@ -83,7 +82,6 @@
         }
       ]
     }
-
   ],
   "relationships": [
     {
